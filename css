@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.search-container {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 300px;
+}
+
+select {
+    padding: 8px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#results {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-height: 100px;
+}
