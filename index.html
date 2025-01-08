@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parts Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search by part number or name...">
+        <button onclick="search()">🔍</button>
+        <select id="condition">
+            <option value="">Condition</option>
+            <option value="genuine">Genuine</option>
+            <option value="aftermarket">Aftermarket</option>
+            <option value="rebuild">Rebuild</option>
+            <option value="used">Used</option>
+        </select>
+        <select id="brand">
+            <option value="">Brand</option>
+            <option value="hyundai">Hyundai</option>
+            <option value="chevrolet">Chevrolet</option>
+            <option value="kia">KIA</option>
+            <option value="ssangyong">SsangYong</option>
+        </select>
+        <select id="sort">
+            <option value="">Sort</option>
+            <option value="finishSoon">Time: Finish Soon</option>
+            <option value="newest">Time: Newest</option>
+            <option value="lowestPrice">Lowest Price</option>
+            <option value="highestPrice">Highest Price</option>
+        </select>
+    </div>
+    <div id="results">Results appear here...</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
